@@ -1,0 +1,39 @@
+let imagen = [require("./components/img/serviteca.jpg")];
+<RViewer imageServ={imagenes}>
+        <div style={{ display: "flex", marginTop: "40px" }}>
+          {imagenes.map((imagen, index) => {
+            return (
+              <RViewerTrigger index={index}>
+                <img src={imagen} />
+              </RViewerTrigger>
+            );
+          })}
+        </div>
+      </RViewer>
+
+
+
+      <img src={Serviteca} />
+
+
+
+
+       index element={<img src={Serviteca} height="1000rem" />}
+
+
+
+       app.jss
+       {
+  /*import INICIO from "./components/Inicio";
+import Contact from "./components/Ingresar";
+import Productos from "./components/Productos";
+import LinkItem from "./components/LinkItem";
+import Serviteca from "./assets/Serviteca.jpg";
+import ERROR404 from "./assets/img/ERROR404.webp";*/
+}
+
+
+
+
+
+       
