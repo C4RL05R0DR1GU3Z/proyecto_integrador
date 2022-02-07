@@ -1,16 +1,20 @@
+import { Heading } from "@chakra-ui/react";
+
 function Inicio() {
   return (
     <div className="container">
-      <h2>CR SERVITECA</h2>
-      <hr />
-      <h3> ¿Quiénes Somos?</h3>
+      <Heading size="lg" p={5}>
+        ¿Quiénes Somos?
+      </Heading>
       <p>
         Somos una empresa líder en el negocio de lubricantes, integrada por
         profesionales de larga trayectoria y experiencia tanto técnica como
         gerencial en la industria automotriz.
       </p>
       <hr />
-      <h3>Misión</h3>
+      <Heading size="lg" p={5}>
+        Misión
+      </Heading>
       <p>
         CR SERVITECA es una empresa dedicada al servicio de la lubricación
         relacionada con el sector automotriz, que comercializa productos de
@@ -19,7 +23,9 @@ function Inicio() {
         <br /> Estrucuturamos el crecimiento permanente de la empresa a través
         del proceso continuo, apoyados en nuestras políticas de calidad.
       </p>
-      <h3>Visión</h3>
+      <Heading size="lg" p={5}>
+        Visión
+      </Heading>
       <hr />
       <p>
         Ser una empresa de reconocido prestigio con excelencia en sus productos

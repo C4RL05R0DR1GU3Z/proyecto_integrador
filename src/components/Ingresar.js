@@ -103,7 +103,7 @@ function Ingresar() {
           </form>
         </div>*/}
       <Center>
-        <Box bg="telegram.600" p={10} borderRadius="xl" maxW="md">
+        <Box bg="telegram.500" p={10} borderRadius="xl" maxW="md">
           <form onSubmit={handleOnSubmitLogin}>
             <div>
               <Heading size="2xl">Iniciar Sesión</Heading>
